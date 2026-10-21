@@ -1,8 +1,10 @@
 import sys
 
 def read_map(map_file_path):
+	with open(map_file_path) as file:
+		ruf_grid = file.read()
+	
     
-    pass
 
 def draw_map():
     pass
